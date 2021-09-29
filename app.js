@@ -16,6 +16,8 @@ for(let i = 0; i < SQUARES_NUMBER; i++) {
 }
 
 function setColor(event) {
+    event.preventDefault();
+    event.stopPropagation();
     const element = event.target
     const color = getRandomColor()
     element.style.backgroundColor = color
@@ -23,6 +25,8 @@ function setColor(event) {
 }
 
 function removeColor(event) {
+    event.preventDefault();
+    event.stopPropagation();
     const element = event.target
     element.style.backgroundColor = '#1d1d1d'
     element.style.boxShadow = '0 0 2px #000'
