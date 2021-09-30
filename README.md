@@ -1,2 +1,2 @@
-# hoverBoard
-Just simple game
+# Светящаяся доска
+Стек технологий - HTML, CSS, Vanilla JS
